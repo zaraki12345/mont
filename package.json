@@ -1,0 +1,42 @@
+{
+  "name": "monterail",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.5.2",
+    "del": "^5.1.0",
+    "fabric": "^4.4.0",
+    "gulp-environments": "^1.0.1",
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "browser-sync": "^2.26.12",
+    "change-case": "^3.1.0",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-environment": "^1.5.2",
+    "gulp-image": "^6.2.1",
+    "gulp-js-import": "^1.0.6",
+    "gulp-rename": "^1.4.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-svgmin": "^3.0.0",
+    "gulp-svgstore": "^6.1.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglify-es": "^1.0.4",
+    "path": "^0.12.7",
+    "remove-svg-properties": "^0.3.3"
+  }
+}

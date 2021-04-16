@@ -1,0 +1,23 @@
+.btn-primary {
+    color: $color-primary;
+    border-color: $color-primary;
+    background-color: transparent;
+    font-family: $font-secondary;
+    font-size: 1.125rem;
+    line-height: 1.125rem;
+    padding: 0.625rem 1.875rem;
+    border-radius: 1.875rem;
+    &.btn-active {
+        color: $color-white;
+        border-color: $color-primary;
+        background-color: $color-primary;
+    }
+    &:focus,
+    &:hover,
+    &:visited {
+        color: $color-white;
+        border-color: $color-primary;
+        background-color: $color-primary;
+        box-shadow: none;
+    }
+}

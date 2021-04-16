@@ -1,0 +1,10 @@
+body {
+    font-family: $font-primary;
+    color: $color-secondary;
+}
+
+@media only screen and (max-width:767px){
+    .container {
+        max-width: 41.625rem;
+    }
+}

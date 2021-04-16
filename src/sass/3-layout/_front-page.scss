@@ -1,0 +1,115 @@
+.intro {
+    &__content {
+        margin-top: 7rem;
+    }
+    &__title {
+        font-weight: 600;
+        font-size: 3rem;
+        line-height: 3.25rem;
+        text-align: center;
+        margin-bottom: 7rem;
+    }
+    &__filters {
+        max-width: 29rem;
+        margin: 0 auto;
+        justify-content: space-between;
+        align-items: center;
+        display: flex;
+        margin-bottom: 4rem;
+    }
+    &__wrapper__boxes {
+        margin: 0 -.55rem;
+    }
+    &__boxes {
+        display: flex;
+        flex-direction: row;
+        max-width: 64rem;
+        margin: 0 auto 10rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    &__box {
+        flex: 0 0 32.125%;
+        max-width: 32.125%;
+    }
+    &__box__content {
+        padding: 2.5rem;
+        background: #FFFFFF;
+        box-shadow: 0px .25rem 1.5rem rgba(0, 0, 0, 0.1);
+        border-radius: .5rem;
+        margin: 0 .55rem;
+        &__logo {
+            margin: 0 auto 2.25rem;
+            display: block;
+        }
+        &__text {
+            font-size: 0.875rem;
+            line-height: 1.375rem;
+            font-family: $font-secondary;
+        }
+        hr {
+            margin: .75rem 0 .15rem;
+            max-width: 6.5625rem;
+        }
+        &__tags {
+            color:$color-gray;
+            line-height: 1.375rem;
+            font-size: 0.75rem;
+            letter-spacing: -0.015em;
+        }
+    }
+    @media only screen and (max-width:767px){
+        &__title {
+            margin-bottom: 3rem;
+        }
+        &__box {
+            flex: 0 0 50%;
+            max-width: 50%;
+            &:last-of-type {
+                margin-top: 1.125rem;
+            }
+        }
+        &__boxes {
+            justify-content: start;
+        }
+    }
+    @media only screen and (max-width:480px){
+        .btn-primary {
+            font-size: 0.75rem;
+        }
+        &__title {
+            margin-bottom: 3rem;
+            font-size: 2.375rem;
+            line-height: 2.625rem;
+        }
+        &__box {
+            flex: 0 0 100%;
+            max-width: 20.25rem;
+            margin: 1.125rem auto 0;
+        }
+        &__filters {
+            flex-wrap: wrap;
+            max-width: 12rem;
+            .btn-primary {
+                margin-top: 1rem;
+            }
+        }
+    }
+    @media only screen and (max-width:375px){
+        &__title {
+            font-size: 1.75rem;
+            line-height: 1.875rem;
+        }
+        &__box__content {
+            &__text {
+                font-size: 0.75rem;
+            }
+        }
+    }
+}
+.copyright {
+    font-size: 0.75rem;
+    max-width: 63rem;
+    margin: 0 auto;
+    color:$color-gray;
+}
