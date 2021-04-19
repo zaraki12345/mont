@@ -31,6 +31,10 @@
     &__box {
         flex: 0 0 32.125%;
         max-width: 32.125%;
+        transition: opacity 1s;   
+        &.fadein {
+            opacity: 1;
+        }
     }
     &__box__content {
         padding: 2.5rem;
